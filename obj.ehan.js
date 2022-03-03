@@ -54,7 +54,7 @@ function createInstructor(firstName, lastName){
   function createAnimal(species, verb, noise){
       return {
           species,
-          verb(){
+          [verb](){
               return noise;
           }
       }
